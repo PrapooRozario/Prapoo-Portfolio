@@ -26,7 +26,7 @@ const Educations = () => {
       <div className="mt-12 w-fit mx-auto">
         <div className="relative">
           <div className="flex gap-6">
-            <div className="rounded-full bg-[#393A3B] z-10 border p-4 flex justify-center items-center border-neutral-200 w-fit h-fit before:absolute before:h-[400px] before:top-[58px] before:w-[1px] before:bg-neutral-800">
+            <div className="rounded-full bg-[#393A3B] z-10 border p-4 flex justify-center items-center border-neutral-200 w-fit h-fit before:absolute before:h-full before:top-[58px] before:w-[1px] before:bg-neutral-800">
               <School />
             </div>
             <div>
@@ -53,7 +53,7 @@ const Educations = () => {
                   Currently Studying
                 </div>
               </div>
-              <div className="absolute left-7 md:top-[140px] border-t border-dashed border-neutral-800 w-full"></div>
+              <div className="absolute left-[31px] md:top-[140px] border-t border-dashed border-neutral-800 w-full"></div>
             </div>
           </div>
 
@@ -75,7 +75,7 @@ const Educations = () => {
               <div className="w-fit rounded-lg text-black bg-white hover:bg-white/80 transition duration-300 cursor-pointer px-3 py-1 mb-3 text-xs mt-3 font-medium whitespace-nowrap">
                 College
               </div>
-              <div className="absolute left-7 md:top-[312px] border-t border-dashed border-neutral-800 w-full"></div>
+              <div className="absolute left-[31px] md:top-[312px] border-t border-dashed border-neutral-800 w-full"></div>
             </div>
           </div>
 

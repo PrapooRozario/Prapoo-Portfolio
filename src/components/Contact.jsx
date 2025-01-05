@@ -75,6 +75,7 @@ const Contact = () => {
         >
           {loading && (
             <div className="flex items-center justify-center absolute inset-0">
+              <h1>issues</h1>
               <div className="w-10 h-10 border-4 border-t-neutral-400 border-neutral-800 rounded-full animate-spin"></div>
             </div>
           )}

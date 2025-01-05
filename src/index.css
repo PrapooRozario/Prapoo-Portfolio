@@ -19,3 +19,7 @@
     --color-5: 90 100% 63%
   }
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
