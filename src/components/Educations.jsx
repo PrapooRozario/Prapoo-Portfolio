@@ -26,12 +26,9 @@ const Educations = () => {
       <div className="mt-12 w-fit mx-auto">
         <div className="relative">
           <div className="flex gap-6">
-            <div className="rounded-full bg-white/20 border p-4 flex justify-center items-center border-neutral-200 w-fit h-fit">
+            <div className="rounded-full bg-[#393A3B] z-10 border p-4 flex justify-center items-center border-neutral-200 w-fit h-fit before:absolute before:h-[400px] before:top-[58px] before:w-[1px] before:bg-neutral-800">
               <School />
             </div>
-
-            <div className="bg-neutral-800 w-[1px] md:h-[115px] absolute left-[28px] md:top-[58px] sm:h-[115px] sm:top-[58px] h-[151px] top-[58px]"></div>
-
             <div>
               <h1
                 onClick={() =>
@@ -61,10 +58,9 @@ const Educations = () => {
           </div>
 
           <div className="flex gap-6 mt-10">
-            <div className="rounded-full bg-white/20 border p-4 flex justify-center items-center border-neutral-800 w-fit h-fit">
+            <div className="rounded-full bg-[#393A3B] border z-10  p-4 flex justify-center items-center border-neutral-800 w-fit h-fit">
               <University></University>
             </div>
-            <div className="bg-neutral-800 w-[1px] md:h-[115px] absolute left-[28px] md:top-[229px] h-[170px] top-[266px] sm:h-[114px] sm:top-[230px]"></div>
             <div>
               <div className="blur-[6px]">
                 <h1 className="font-semibold leading-none">
@@ -84,7 +80,7 @@ const Educations = () => {
           </div>
 
           <div className="flex gap-6 mt-10">
-            <div className="rounded-full bg-white/20 border p-4 flex justify-center items-center border-neutral-800 w-fit h-fit">
+            <div className="rounded-full bg-[#393A3B] z-10 border p-4 flex justify-center items-center border-neutral-800 w-fit h-fit">
               <GraduationCap />
             </div>
             <div>

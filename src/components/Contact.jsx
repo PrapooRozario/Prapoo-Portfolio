@@ -34,16 +34,16 @@ const Contact = () => {
           description:
             "Got it! Your message is on its way. I’ll reply shortly!",
         });
-          setLoading(false);
-          reset()
+        setLoading(false);
+        reset();
       })
       .catch(() => {
         toast({
           title: "Error",
           description: "Oops! Something went wrong. Please try again later.",
         });
-          setLoading(false);
-          reset()
+        setLoading(false);
+        reset();
       });
   };
   return (
@@ -53,7 +53,9 @@ const Contact = () => {
       transition={{
         duration: 0.6, // Animation duration in seconds
         ease: "easeInOut", // Easing function
-      }} className="max-w-3xl mx-auto px-6 pb-16 text-white relative">
+      }}
+      className="max-w-3xl mx-auto px-6 pb-16 text-white relative"
+    >
       <div className="text-center">
         <div className="w-fit mx-auto rounded-lg text-black bg-white px-3 py-1 mb-3 text-sm">
           Contact
@@ -66,8 +68,11 @@ const Contact = () => {
           <br /> I'll respond whenever I can.
         </p>
       </div>
-      <div className="mt-10 w-4/5 mx-auto">
-        <form className={`space-y-4 ${loading && 'opacity-50'}`} onSubmit={handleSubmit(handleForm)}>
+      <div className="mt-10 md:w-4/5 mx-auto">
+        <form
+          className={`space-y-4 ${loading && "opacity-50"}`}
+          onSubmit={handleSubmit(handleForm)}
+        >
           {loading && (
             <div className="flex items-center justify-center absolute inset-0">
               <div className="w-10 h-10 border-4 border-t-neutral-400 border-neutral-800 rounded-full animate-spin"></div>
