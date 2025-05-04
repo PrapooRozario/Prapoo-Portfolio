@@ -62,7 +62,7 @@ const Educations = () => {
               <University></University>
             </div>
             <div>
-              <div className="blur-[6px]">
+              <motion.div animate={{ filter: "blur(20px)" }}>
                 <h1 className="font-semibold leading-none">
                   Unknown Unknown Unknown Unknown
                 </h1>
@@ -71,7 +71,7 @@ const Educations = () => {
                   Unknown Unknown Unknown Unknown Unknown Unknown Unknown
                   Unknown Unknown Unknown Unknown
                 </p>
-              </div>
+              </motion.div>
               <div className="w-fit rounded-lg text-black bg-white hover:bg-white/80 transition duration-300 cursor-pointer px-3 py-1 mb-3 text-xs mt-3 font-medium whitespace-nowrap">
                 College
               </div>
@@ -84,7 +84,10 @@ const Educations = () => {
               <GraduationCap />
             </div>
             <div>
-              <div className="blur-[6px]">
+              <motion.div
+                animate={{ filter: "blur(20px)"}}
+                className="blur-[6px]"
+              >
                 <h1 className="font-semibold leading-none">
                   Unknown Unknown Unknown Unknown
                 </h1>
@@ -93,7 +96,7 @@ const Educations = () => {
                   Unknown Unknown Unknown Unknown Unknown Unknown Unknown
                   Unknown Unknown Unknown Unknown
                 </p>
-              </div>
+              </motion.div>
 
               <div className="w-fit rounded-lg text-black bg-white hover:bg-white/80 transition duration-300 cursor-pointer px-3 py-1 mb-3 text-xs mt-3 font-medium whitespace-nowrap">
                 University
